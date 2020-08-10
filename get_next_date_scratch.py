@@ -4,7 +4,7 @@ def get_next_date(date_) :
     Returns the next date ( check for leap year - not done )
        input format 2018-08-22 (YYYY-MM-DD) 
     Note : you can also use the built-in datetime module 
-    This is a round about way.
+    This is how to get it from scratch ( check the get_next_day_timedelta() for a simpler code
     '''
     
     next_month = next_day =next_year = ''
